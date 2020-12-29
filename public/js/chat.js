@@ -59,8 +59,7 @@ socket.on('locationMessage',(message) => {
     $messages.insertAdjacentHTML('beforeend',html)
     autoscroll()
 
-} )
-
+})
 socket.on('roomData',({ room,users }) => {
     const html = Mustache.render(sidebarTemplate,{
         room,

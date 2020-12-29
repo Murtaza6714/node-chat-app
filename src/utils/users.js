@@ -50,5 +50,5 @@ module.exports = {
     addUser,
     removeUser,
     getUser,
-    getUsersInRoom 
+    getUsersInRoom
 }
